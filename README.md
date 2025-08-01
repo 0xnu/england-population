@@ -20,14 +20,14 @@ python3 -m pip install --upgrade pip
 
 ### Data Requirements
 
-The system needs a CSV file with these columns:
+The analysis needs a CSV file with these columns:
 
 + `Year`: Year of population data (format: Mid-YYYY)
 + `Annual population change`: Numeric value of population change (with comma separators)
 
 The data (Population estimates for England and Wales: mid-2024) is from [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationestimatesforenglandandwales/mid2024).
 
-### Run the System
+### Run the Analysis
 
 Click the `Run` button to run the individual cell of the [Jupyter Notebook](./england_population_change.ipynb).
 
