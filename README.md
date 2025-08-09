@@ -18,7 +18,7 @@ uv pip install -r requirements.txt
 python3 -m pip install --upgrade pip
 ```
 
-### Data Requirements
+### Data Requirements (England Population)
 
 The analysis needs a CSV file with these columns:
 
@@ -27,9 +27,22 @@ The analysis needs a CSV file with these columns:
 
 The data (Population estimates for England and Wales: mid-2024) is from [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/populationestimates/bulletins/populationestimatesforenglandandwales/mid2024).
 
+### Data Requirements (EU and Non-EU Migration)
+
+The dataset contains quarterly migration data from June 2012 to December 2024, tracking:
+
+- Period: Quarterly period (e.g., YE Jun 12 to YE Dec 24 P)
+- Non-EU+ migration: Number of migrants from non-EU countries (e.g., 57,000 in YE Jun 12 to 544,000 in YE Dec 24 P)
+- EU+ migration: Number of migrants from EU countries (e.g., 187,000 in YE Jun 12 to -96,000 in YE Dec 24 P)
+- British migration: Number of migrants from the UK (e.g., -83,000 in YE Jun 12 to -17,000 in YE Dec 24 P)
+- Total migration: Total number of migrants (e.g., 162,000 in YE Jun 12 to 431,000 in YE Dec 24 P)
+
+The data (Net migration by EU+, non-EU+ and British nationality) is from [Office for National Statistics](https://www.ons.gov.uk/peoplepopulationandcommunity/populationandmigration/internationalmigration/bulletins/longterminternationalmigrationprovisional/yearendingdecember2024#long-term-net-migration).
+
 ### Run the Analysis
 
-Click the `Run` button to run the individual cell of the [Jupyter Notebook](./england_population_change.ipynb).
++ Click the `Run` button to run the individual cell of the [England Population - Jupyter Notebook](./england_population_change.ipynb).
++ Click the `Run` button to run the individual cell of the [EU and Non-EU Migration - Jupyter Notebook](./england_eu_noneu.ipynb).
 
 ### License
 
